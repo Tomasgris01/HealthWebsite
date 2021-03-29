@@ -112,10 +112,26 @@ aside ul li
 }
 
 
-
-.col_Details {
-    column-count: 3;
+.col_detail {
+     column-count: 3;
+    text-align: center;
+    color: #c4431c;
+    font-family: "Times New Roman";
+    font-size: 200%;
     column-rule: 1px solid white;
     column-gap: 50px;
     padding: 2px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+        
 }
