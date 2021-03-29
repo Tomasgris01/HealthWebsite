@@ -49,7 +49,7 @@ nav ul li
 
 nav ul li a 
 {
-    color:  #c4431c;;
+    color:  #0846aa;;
     text-decoration: none;
 
 }
@@ -74,7 +74,7 @@ nav ul li:hover
 }
 
 h1 {
-    color: #c4431c;
+    color: #ffffff;
 }
 
 #content {
@@ -83,6 +83,7 @@ h1 {
     margin-right:  15px;
     border: 1px solid black;
     text-align: justify;
+    margin-bottom: 200px;
     
 }
 
@@ -109,13 +110,15 @@ aside ul li
     width: 38%;
     height: 250px;
     float: right;
+    
+   
 }
 
 
 .col_detail {
      column-count: 3;
     text-align: center;
-    color: #c4431c;
+    color:  #0846aa;
     font-family: "Times New Roman";
     font-size: 200%;
     column-rule: 1px solid white;
@@ -134,4 +137,16 @@ footer {
     position: relative;
     text-align: center;
         
+}
+
+
+
+article {
+    border: 1px black;
+    text-align: center;
+    line-height: 1.5;
+     word-spacing: 2px;
+     background-image: url(../images/fitsum222-admasu-oGv9xIl7DkY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
