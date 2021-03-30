@@ -124,6 +124,8 @@ aside ul li
     column-rule: 1px solid white;
     column-gap: 50px;
     padding: 2px;
+    margin-bottom: 50px; 
+    
 }
 
 h2 {
@@ -144,9 +146,11 @@ footer {
 article {
     border: 1px black;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2.0;
      word-spacing: 2px;
+    font-size: 150%;
      background-image: url(../images/fitsum222-admasu-oGv9xIl7DkY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80%;
 }
