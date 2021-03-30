@@ -118,9 +118,7 @@ aside ul li
     
 }
 
-h2 {
-    text-align: center;
-}
+
 
 footer {
     clear: both;
@@ -176,3 +174,10 @@ aside {
 
 
 
+
+.bottom  {
+       line-height: 2.0;
+     word-spacing: 2px;
+    font-family: serif;
+    text-align: justify;
+}
