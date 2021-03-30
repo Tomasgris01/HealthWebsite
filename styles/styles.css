@@ -84,6 +84,7 @@ h1 {
     border: 1px solid black;
     text-align: justify;
     margin-bottom: 200px;
+
     
 }
 
@@ -108,7 +109,7 @@ aside ul li
 #sideContent {
     border: 1px solid Black;
     width: 38%;
-    height: 250px;
+    height: auto;
     float: right;
     
    
@@ -153,4 +154,22 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80%;
+}
+
+.videoContent {
+    float: left;
+    width: 850px;
+    border: 2px solid black;
+    max-height: 450px;
+    min-width: 450;
+    overflow: auto;
+    margin-bottom: 200px;
+    
+}
+
+#workoutContent {
+     border: 2px solid Black;
+    width: 40%;
+    height: 400px;
+    float: right;
 }
