@@ -49,7 +49,7 @@ nav ul li
 
 nav ul li a 
 {
-    color:  #0846aa;;
+    color:  #0846aa;
     text-decoration: none;
 
 }
@@ -81,9 +81,12 @@ h1 {
     float: left;
     width: 100%;
     margin-right:  15px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: justify;
     margin-bottom: 200px;
+    font-family:serif;
+     line-height: 2.0;
+     font-size: 110%;
 
     
 }
@@ -180,4 +183,8 @@ aside {
      word-spacing: 2px;
     font-family: serif;
     text-align: justify;
+}
+
+h2 , h3{
+    color:  #0846aa;
 }
