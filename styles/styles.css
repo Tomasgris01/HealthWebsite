@@ -5,6 +5,30 @@ background: linear-gradient(90deg, rgb(96, 96, 96) 0%, rgb(0, 0, 0) 100%);
 
 }
 
+*,
+*::before,
+*::after
+{
+    margin: 5;
+    box-sizing: inherit;
+   
+   
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+section{
+
+  
+}
+
+
+
+
 
 
 body {
@@ -19,7 +43,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    border: 1px solid black;
+ 
 }
 
 nav
@@ -111,7 +135,7 @@ aside ul li
      column-count: 3;
     text-align: center;
     color:  #0846aa;
-    font-family: "Times New Roman";
+
     font-size: 200%;
     column-rule: 2px solid black;
     column-gap: 50px;
@@ -166,6 +190,8 @@ article {
 
 
 
+
+
 aside {
    float: right;
     width: 49%;
@@ -188,3 +214,87 @@ aside {
 h2 , h3{
     color:  #0846aa;
 }
+
+.qpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    
+    
+}
+
+.accordion-item {
+    background-color: #283042;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5pem rgba(0,0,0, .1);
+    
+}
+
+.accordion-link {
+    font-size: 1.6rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    
+    
+    
+}
+
+ion-icon{
+  color: #0846aa;
+    padding: .5rem;
+   
+}
+
+.answer
+{
+  max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+ 
+    
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%
+    left: 0;
+    transform: translateY(-50%);
+   
+    
+    
+}
+
+.answer p{
+    color: rgba(255,255,255,.6);
+    font-size: 1.4rem;
+    padding: 2rem;
+     
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
