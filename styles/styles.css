@@ -213,6 +213,7 @@ aside {
 
 h2 , h3{
     color:  #0846aa;
+    text-align: center;
 }
 
 .qpage {
@@ -298,3 +299,17 @@ ion-icon{
     max-height: 20rem;
 }
 
+
+#map {
+    
+    width: 100%;
+     
+         margin-left: 33%;
+         margin-right: 33%; 
+    margin-bottom: 200px;
+    font-family:serif;
+     line-height: 2.0;
+     font-size: 110%;
+
+    
+}
