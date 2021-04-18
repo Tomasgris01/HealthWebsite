@@ -104,10 +104,11 @@ h1 {
 #content {
     float: left;
     width: 100%;
+   
     margin-right:  15px;
     border: 2px solid black;
     text-align: justify;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     font-family:serif;
      line-height: 2.0;
      font-size: 110%;
@@ -167,7 +168,7 @@ article {
      background-image: url(../images/fitsum222-admasu-oGv9xIl7DkY-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
+    height: 100%;
 }
 
 .videoContent {
