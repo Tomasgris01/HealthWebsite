@@ -173,7 +173,7 @@ article {
 .videoContent {
      float: left;
     width: 49%;
-  
+    height: 450px;
     border: 2px solid black;
     max-height: 450px;
     min-width: 450;
@@ -209,6 +209,7 @@ aside {
      word-spacing: 2px;
     font-family: serif;
     text-align: justify;
+    text-align: center;
 }
 
 h2 , h3{
